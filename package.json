@@ -1,8 +1,7 @@
 {
   "name": "reactjs-movies-search",
   "version": "0.1.0",
-  "private": true,
-  "homepage": " https://vladyani.github.io/reactjs-movies-search/",
+  "homepage": "https://vladyani.github.io/reactjs-movies-search/",
   "dependencies": {
     "antd": "^2.13.6",
     "axios": "^0.16.2",
