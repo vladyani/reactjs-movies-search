@@ -12,7 +12,7 @@ export default class Navbar extends Component {
                     <img alt="app icon" width="30" height="30" src="https://cdn.iconscout.com/public/images/icon/premium/png-512/avengers-381d701474eb0762-512x512.png"/>
                 </span>
             <a className="navbar-brand" href="#" style={{marginLeft: "14px"}}>
-                Avengers Movie Search
+                Movie Search
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

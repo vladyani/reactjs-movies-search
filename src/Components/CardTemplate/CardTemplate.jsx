@@ -18,9 +18,6 @@ const CardTamplate = ({ name, date, vote, image, id }: Props) => (
         <img alt={name} width='100%' src={`https://image.tmdb.org/t/p/w500${image}`} />
       </div>
       <div className='custom-card'>
-        <h3>{name}</h3>
-        <p className="date-card">{`Date: ${date}</p>
-        <p>Votes: ${vote}`}</p>
       </div>
     </Card>
   </Link>

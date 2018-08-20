@@ -85,19 +85,21 @@ export default class SearchForm extends Component {
                     <span className="fas fa-search"></span>
                 </button>
                 </div>
+                    <div className="row" style={{marginLeft:"50px"}}>
                     {this.state.searchResults.map(result => {
                         return(
                             <div className="outher-movie-box" style={{display: "inline-block"}}>
                                 <div className="inner-movie-box" style={{margin:"20px", border: "1px solid #efefef", borderRadius: '6px'}}>
-                                    <img width="200" height="250" src={`https://image.tmdb.org/t/p/original${result.poster_path}`} />
-                                    <span>{result.title}</span>
-                                    <span>{result.vote_count} votes</span>
-                                    <span>{result.popularity}</span>
-                                    <span>{result.release_date}</span>
+                                    <img width="200" height="280" src={`https://image.tmdb.org/t/p/original${result.poster_path}`}  style={{cursor:"pointer"}}/>
+                                    {/*<span>{result.title}</span>*/}
+                                    {/*<span>{result.vote_count} votes</span>*/}
+                                    {/*<span>{result.popularity}</span>*/}
+                                    {/*<span>{result.release_date}</span>*/}
                                 </div>
                             </div>
                         )
                     })}
+                    </div>
                 </div>
             </div>
         );
